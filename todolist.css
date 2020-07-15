@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(228, 232, 258);
+}
+h1 {
+  background-color: rgb(167, 128, 228);
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  color: whitesmoke;
+}
+#d1 {
+  width: 625px;
+  height: 300px;
+
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: -10px;
+  background-color: rgb(255, 255, 255);
+}
+#submit {
+  background-color: rgb(167, 128, 228);
+  margin-top: -100px;
+  margin-left: 630px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: rgb(167, 128, 228);
+  border-width: 0px;
+  color: white;
+}
+.mind {
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+}
+.mind:hover :nth-child(3) {
+  visibility: visible;
+}
+.newp {
+  flex: 4;
+  display: flexbox;
+  text-align: left;
+  color: gray;
+}
+.rd {
+  align-self: center;
+  margin-left: 40px;
+  flex: 1;
+}
+[type="radio"]:checked {
+  width: 16px;
+  height: 16px;
+
+  background-color: red;
+}
+
+.dele {
+  align-self: center;
+
+  flex: 1;
+  width: 10px;
+  height: 7px;
+  visibility: collapse;
+}
